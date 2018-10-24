@@ -1,0 +1,14 @@
+//- Используем стандартный шаблон
+extends ./template/index_layout
+
+//- Модифицируем head
+block head
+    - var pageTitle = 'Страница страниц';
+
+//- Выводим контент
+block content
+    ul
+    <% _.each(files, function(file) { %>
+        li
+            a(href="<%= file %>") <%= file.replace('.html', '') %>
+    <% }); %>

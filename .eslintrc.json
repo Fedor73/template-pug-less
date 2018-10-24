@@ -1,0 +1,49 @@
+{
+    "env": {
+        "browser": true
+    },
+    "globals":{
+        "require":true,
+        "define":true
+    },
+    "extends": "yandex",
+    "plugins": [
+        "requirejs"
+    ],
+    "rules": {
+        "indent": [
+            "error",
+            4
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "no-console": "error",
+        "no-alert": "error",
+        "valid-typeof": "error",
+        "use-isnan": "error",
+        /*
+        "valid-jsdoc": ["error"],
+        "require-jsdoc": ["error", {
+          "require": {
+            "FunctionDeclaration": true,
+            "MethodDefinition": false,
+            "ClassDeclaration": false,
+            "ArrowFunctionExpression": true,
+            "FunctionExpression": true
+          }
+        }],
+        */
+        "requirejs/no-invalid-define": 2,
+        "requirejs/no-multiple-define": 2,
+        "requirejs/no-named-define": 2,
+        "requirejs/no-commonjs-wrapper": 2,
+        "requirejs/no-object-define": 1
+    }
+
+}

@@ -1,0 +1,129 @@
+#пхпинфо
+/phpinfo.php
+
+# файлы создавемые редакторами
+.idea
+*.orig
+*.bak
+*.sublime-gulp.cache
+*.sublime-grunt.cache
+*.sublime-project
+*.sublime-workspace
+._*
+.cache
+.project
+.settings
+.tmproj
+
+# файлы системы
+.DS_Store
+Thumbs.db
+
+# папки Битрикс
+/upload/*
+/bitrix/*
+/logs
+
+# папки NETCAT
+/images/*
+/install/*
+/netcat/*
+/netcat_cache/*
+/netcat_dump/*
+/netcat_files/*
+/netcat_trash/*
+/index.php
+/vars.inc.php
+
+# файлы шаблона
+/local/templates/*/js/*
+/local/templates/*/css/*
+/local/templates/*/img/*
+/local/templates/*/fonts/*
+/html/build/*
+/build/*
+
+# Numerous always-ignore extensions
+*.bak
+*.diff
+*.err
+*.exe
+*.log
+*.orig
+*.rej
+*.sass-cache
+*.swo
+*.swp
+*.vi
+*~
+
+# текстовые и прочие файлы в том числе файлы бд
+*.xml
+*.txt
+*.dt
+*.psd
+*.pdf
+*.log
+*.sql
+!/backups/*.sql
+
+# архивы
+*.tar.gz
+*.tar
+*.zip
+*.7z
+*.cab
+*.exe
+*.rar
+*.pak
+*.zipx
+
+# исключения для композера
+composer.phar
+composer.lock
+/local/php_interface/include/vendor/*
+
+# Резервная копия оригинального файла
+*.orig
+
+# Файлы офиса
+*.doc
+*.doxc
+*.xls
+*.xlsx
+*.ppt
+*.pttx
+
+#Bower and npm
+bower_components/
+node_modules/
+npm-debug.log
+
+#CVS
+.CVS
+.git
+.hg
+.idea
+.svn
+
+#Сборные временные папки
+concat-less/
+
+#Сборные временные файлы
+/html/src/images/sprite.png
+/html/src/images/sprite@2x.png
+/html/src/images/spritesvg.svg
+/html/src/style/partials/sprite.less
+/html/src/style/partials/spritepng.less
+/html/src/json/faviconData.json
+/src/images/sprite.png
+/src/images/sprite@2x.png
+/src/images/spritesvg.svg
+/src/style/partials/sprite.less
+/src/style/partials/spritepng.less
+/src/style/partials/icons.less
+/src/index.pug
+/src/json/faviconData.json
+
+
+/src/iconlist.pug

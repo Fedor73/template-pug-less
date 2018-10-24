@@ -1,0 +1,24 @@
+//- ====================
+//- Project: main
+//- 00-00-2017:
+//- --------------------
+//- Главная страница.
+//- ====================
+
+//- Используем стандартный шаблон Project
+extends ./template/base_layout
+
+block variables
+    - var file_name = 'main'
+
+//- Модифицируем head
+block head
+    - var pageTitle = 'Главная страница';
+
+//- Выводим попапы
+//- block popup
+
+//- Выводим content
+block content
+    .b-container
+       h1 main

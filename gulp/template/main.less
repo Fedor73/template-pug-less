@@ -1,0 +1,33 @@
+/*
+ * Third Party
+ */
+
+/*
+ * Custom
+ */
+@import "./src/style/partials/variables.less";
+@import "./src/style/partials/fonts.less";
+@import "./src/style/partials/theme.less";
+@import "./src/style/partials/icons.less";
+@import "./src/style/partials/normalize.less";
+
+
+
+
+@import "./src/style/require-concat-less/<%- lessFileName %>/<%- lessFileName %>.desktop.big.less";
+// 1280 +
+@media @desktop {
+    @import "./src/style/require-concat-less/<%- lessFileName %>/<%- lessFileName %>.desktop.less";
+}
+// 1024 +
+@media @desktop-min {
+    @import "./src/style/require-concat-less/<%- lessFileName %>/<%- lessFileName %>.desktop.min.less";
+}
+// 768 +
+@media @tablet {
+    @import "./src/style/require-concat-less/<%- lessFileName %>/<%- lessFileName %>.tablet.less";
+}
+// 320 +
+@media @mobile {
+    @import "./src/style/require-concat-less/<%- lessFileName %>/<%- lessFileName %>.mobile.less";
+}

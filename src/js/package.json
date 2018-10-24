@@ -1,0 +1,17 @@
+{
+  "name": "my-awesome-package",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "html5shiv": "^3.7.3",
+    "jquery": "^3.3.1",
+    "jquery-validation": "^1.17.0",
+    "normalize-css": "^2.3.1"
+  },
+  "devDependencies": {
+    "nouislider": "^11.1.0",
+    "perfect-scrollbar": "^1.4.0",
+    "slick-carousel": "^1.8.1",
+    "tooltipster": "^4.2.6"
+  }
+}

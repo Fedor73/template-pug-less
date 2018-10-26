@@ -3,25 +3,26 @@
 node.js - https://nodejs.org/ Ставим последнюю версию
 
 **клоним**
-git clone https://github.com/Fedor73/template-pug-less.git
+```bash
+$ git clone https://github.com/Fedor73/template-pug-less.git
+```
 
 **переходим в проект**
-cd template-pug-less/
+```bash
+$ cd template-pug-less/
+```
 
 **npm**
-
 ```bash
 $ npm i npm -g --allow-root
 ```
 
 **bower**
-
 ```bash
 $ npm i bower -g --allow-root
 ```
 
 **gulp**
-
 ```bash
 $ npm i gulp -g --allow-root
 ```
@@ -32,15 +33,18 @@ npm install gulp@next
 ``` 
 
 *Собираем проект*
+```bash
+$ npm i 
+```
 
 ```bash
+$ cd src/js/
 $ npm i 
 ```
 
 ```bash
 $ bower i 
 ```
-
 
 ## Как и где работаем ##
 ------------------------------------------------------------------------------------

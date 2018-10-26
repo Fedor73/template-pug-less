@@ -17,11 +17,6 @@ $ cd template-pug-less/
 $ npm i npm -g --allow-root
 ```
 
-**bower**
-```bash
-$ npm i bower -g --allow-root
-```
-
 **gulp**
 ```bash
 $ npm i gulp -g --allow-root
@@ -70,10 +65,6 @@ $ gulp create-style --name b-block-name
 *Проверка js*
 ```bash
 $ gulp eslint
-```
-*Создание переменной с цветов в variables*
-```bash
-$ gulp color-create --color --ffffff
 ```
 
 ## Создаем шрифт из иконок ##

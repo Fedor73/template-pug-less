@@ -1,7 +1,12 @@
-
 ## Должно быть установлено ##
 
 node.js - https://nodejs.org/ Ставим последнюю версию
+
+**клоним**
+git clone https://github.com/Fedor73/template-pug-less.git
+
+**переходим в проект**
+cd template-pug-less/
 
 **npm**
 

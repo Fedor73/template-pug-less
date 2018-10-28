@@ -21,14 +21,9 @@ html(lang="en")
         block styles
 
             link(href="css/main.css" rel="stylesheet")
-            link(rel="manifest" href="/manifest.json")
-
-
-        //- jquery подключаем в шапке т.к. какой-то js может быть внутри компонентов
-        //- block scripts
-        //- script(src='js/jquery/jquery.min.js')
 
         block head
+        
         title= pageTitle || ''
         meta(name='description' content="Описание" || '')
         meta(name='keywords' content="Описание" || '')
